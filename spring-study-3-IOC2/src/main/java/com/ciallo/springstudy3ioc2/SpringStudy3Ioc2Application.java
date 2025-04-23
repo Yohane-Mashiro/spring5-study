@@ -10,10 +10,10 @@ public class SpringStudy3Ioc2Application {
 
     public static void main(String[] args) {
         ClassPathXmlApplicationContext test=new ClassPathXmlApplicationContext("applicationContext.xml");
-        Service_1 service = (Service_1) test.getBean("Servie1");
-        service.setName("test");
+        Service_1 service = (Service_1) test.getBean("service1");
+//      service.setName("test");
         service.show();
-        Service_2 service2 = (Service_2) test.getBean("Service2");
+        Service_2 service2 = (Service_2) test.getBean("service2");
         service2.shownewnew();
     }
 }
