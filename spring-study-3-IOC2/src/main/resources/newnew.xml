@@ -7,4 +7,7 @@
         <!--设置name的初始值-->
         <property name="name" value="newnew"/>
     </bean>
+
+<!--    这是别名-->
+    <alias name="service1" alias="newnew"/>
 </beans>

@@ -15,5 +15,8 @@ public class SpringStudy3Ioc2Application {
         service.show();
         Service_2 service2 = (Service_2) test.getBean("service2");
         service2.shownewnew();
+
+        Service_1 service3 = (Service_1) test.getBean("newnew");
+        service3.show();
     }
 }

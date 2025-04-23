@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="people" class="com.ciallo.springstudy4di.People">
+        <property name="hobbies" >
+            <set>
+                <value>唱</value>
+                <value>跳</value>
+                <value>rap</value>
+                <value>篮球</value>
+            </set>
+        </property>
+
+        <property name="name" value="newnew"/>
+        
+        <property name="canlender">
+            <map>
+                <entry key="5/12" value="study"/>
+                <entry key="5/13" value="test"/>
+            </map>
+        </property>
+    </bean>
+</beans>
