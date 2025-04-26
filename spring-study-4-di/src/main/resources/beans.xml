@@ -22,4 +22,12 @@
             </map>
         </property>
     </bean>
+
+    <bean id="newnew" class="com.ciallo.springstudy4di.People">
+        <property name="canlender" >
+            <map>
+                <entry key="newnew" value="newnew"/>
+            </map>
+        </property>
+    </bean>
 </beans>

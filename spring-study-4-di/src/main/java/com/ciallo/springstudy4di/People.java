@@ -1,8 +1,6 @@
 package com.ciallo.springstudy4di;
 
-import java.util.Arrays;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class People {
     private String name;
