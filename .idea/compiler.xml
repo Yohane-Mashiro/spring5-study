@@ -10,6 +10,7 @@
         <module name="spring-study-8-proxy" />
         <module name="spring-study-3-IOC2" />
         <module name="spring-study-7-appconfig" />
+        <module name="spring-study-9-AOP" />
         <module name="spring-study-2-DR" />
         <module name="spring-study-5-Autowired" />
         <module name="spring-study-6-anno" />
