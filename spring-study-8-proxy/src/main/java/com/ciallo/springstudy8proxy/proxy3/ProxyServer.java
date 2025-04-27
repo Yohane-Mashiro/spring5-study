@@ -5,20 +5,24 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
 public class ProxyServer implements InvocationHandler {
-
     private Rent rent;
+    private String msg;
 
-    public Object getproxy(){
-        return Proxy.newProxyInstance(this.getClass().getClassLoader(),rent.getClass().getInterfaces(),this);
+    public void newnewProxy(Rent rent) {
+        this.rent = rent;
+    }
+
+    public Object getProxy() {
+        return Proxy.newProxyInstance(this.getClass().getClassLoader(), rent.getClass().getInterfaces(), this);
     }
 
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-        //动态代理的本质，就是使用放射机制实现
+        print_log(method.getName());
         return method.invoke(rent, args);
     }
 
-    public void setRent(Rent rent) {
-        this.rent=rent;
+    public void print_log(String msg) {
+        System.out.println("实现了" + msg);
     }
 }
