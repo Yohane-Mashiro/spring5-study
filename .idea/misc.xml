@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/spring-study-2-DR/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-study-4-di/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-study-1-IOC/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-study-3-IOC2/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-study-6-anno/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-study-8-proxy/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-study-5-Autowired/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-study-7-appconfig/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="23" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
